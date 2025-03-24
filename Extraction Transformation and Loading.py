@@ -2,7 +2,7 @@
 
 storage_account_name = 'himanshudatabricks'
 container_name = 'source'
-access_key = 'jGz4++lECt93qX/xrQV9gi0J4WlZWBxLujNcNXewK3VGPjhwFdRtu9B0U4yigAyuqHdASRfkKxzk+ASt1pJvIQ=='
+access_key = 'jGz4++lECt93qX/HIDDENKEY'
 # set access key in spark config
 
 spark.conf.set(f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net", access_key)
